@@ -1,14 +1,26 @@
 /*--------------- Header ---------------*/
-.header {
+header {
     background-color: #1B1E1D;
-    height: 60px;
+    height: 70px;
+    margin: 0;
+    width: 100%;
+    padding: 0;
     }
 
 /*--------------- Mid Section ---------------*/
-.mid-section {
-    background-image: url(assets/images/nz-panorama.png);
+.mid-section img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+
 }
+
 /*--------------- Footer ---------------*/
+.footer {
+    background-color: #1B1E1D;
+    height: 200px;
+    margin: 0;
+    }
 
 /*--------------- Mediaa Quaries ---------------*/
 
