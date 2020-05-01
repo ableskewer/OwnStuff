@@ -1,19 +1,22 @@
 body {
     min-width: 300px;
+    height: 100vh;
 }
 
 /*--------------- Header ---------------*/
 header {
     background-color: rgb(63, 68, 65);
-    height: 70px;
+    height: 10vh;
     margin: 0;
     width: 100%;
     padding: 0;
-    }
+}
 
-.dropleft {
-    text-align: right;
-    padding-top: 20px;
+.header-container-dropleft {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 10vh;    
     padding-right: 20px;
 }
 
@@ -32,7 +35,8 @@ header {
 }
 
 .dropdown-menu.show {
-    top: -16px !important;
+    top: -32px !important;
+    left: -22px !important;
 }
 
 .btn-dark:hover {
@@ -42,19 +46,44 @@ header {
 
 
 /*--------------- Mid Section ---------------*/
-.mid-section img {
-    width: 100%;
-    object-fit: cover;
-    display: block;
+.mid-section {
+    background-image: url(../images/nz-panorama.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
 
+.image-undertaker {
+    background-image: url("../images/Daniel1.jpg");
+    height: 300px;
+    width: 240px;
+    background-size: cover;
+    border: solid 2px black;
+    border-radius: 1px;
+}
+
+.mid-container-img {
+    height: 80vh;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    
 }
 
 /*--------------- Footer ---------------*/
 .footer {
     background-color: rgb(63, 68, 65);
-    height: 70px;
+    height: 10vh;
     margin: 0;
     }
+
+.copyright {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 12px;
+    color: white;
+}
 
 /*--------------- Mediaa Quaries ---------------*/
 
